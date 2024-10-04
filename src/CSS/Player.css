@@ -1,0 +1,27 @@
+
+.player{
+padding: 1rem;
+background-color: rgb(249, 248, 248);
+
+display: flex;
+align-items: center;
+border-radius: 10px;
+gap: 1rem;
+}
+.player span {
+    padding: 1rem;
+}
+.player input{
+    padding: 10px;
+    font-size: 1rem;
+    border: 50px;
+    color: green;
+}
+.player button{
+    border: none;
+    width:  3rem;
+    height: 3rem;
+}
+input:focus{
+    color: red;
+}
